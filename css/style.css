@@ -43,6 +43,14 @@ body {
     color: #000000;
 }
 
+.link_active a {
+    color: #fff000;
+    font-weight: bold;
+}
+.link_active a:hover{
+    color: #fff000;
+}
+
 .navigator ul {
     padding-left: 0;
 }
@@ -56,12 +64,6 @@ body {
     width: 100%;
 }
 
-@media (max-width: 991px) {
-    .navigator {
-        font-size: 16px;
-        min-width: 180px;
-    }
-}
 
 .profile {
 
@@ -85,15 +87,67 @@ body {
     padding-left: 25px;
 }
 
-.fio{
-    font-size: 35px;
+.fio {
+    font-size: 32px;
     font-weight: bold;
 }
+
+.position_and_subdivision {
+    font-size: 17px;
+    color: #6c7173;
+    margin-top: 5px;
+}
+
+.about {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
 
 .indicators {
     display: flex;
 }
 
-.indicators img {
+.parameter img {
     max-width: 60px;
+}
+
+.parameter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+
+@media (max-width: 991px) {
+    .navigator {
+        font-size: 16px;
+        min-width: 180px;
+    }
+
+    .fio {
+        font-size: 20px;
+    }
+
+    .container {
+        max-width: 730px;
+    }
+
+    .photo_profile img {
+        border-radius: 10px;
+        width: 100px;
+    }
+
+    .parameter {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    .parameter img {
+        max-width: 30px;
+    }
+
 }
