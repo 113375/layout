@@ -72,8 +72,6 @@ body {
     display: flex;
 }
 
-.about_quests {
-}
 
 .photo_profile {
     width: 180px;
@@ -129,9 +127,6 @@ body {
     font-size: 17px;
 }
 
-.about_quests {
-    width: 50%;
-}
 
 .main_quest span {
     font-weight: bold;
@@ -157,8 +152,30 @@ body {
     margin-top: 5px;
 }
 
-.name{
+.name {
     margin-bottom: 5px;
+}
+
+.about_quests {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-block {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.right-block {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.progress_block {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 7px;
+    background-color: #fffefe;
 }
 
 @media (max-width: 991px) {
