@@ -5,19 +5,66 @@
     <title>Профиль</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <div class="container">
     <div class="navigator">
         <ul>
-            <li class="link_active"><a href="#">ПРОФИЛЬ</a></li>
-            <li><a href="#">ОСНОВНОЙ КВЕСТ</a></li>
-            <li><a href="#">СОРЕВНОВАНИЯ</a></li>
-            <li><a href="#">СТАТИСТИКА</a></li>
-            <li><a href="#">РЕЙТИНГ</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
-            <li><a href="#">ТЕСТЫ</a></li>
-            <li id="last"><a href="#">ВЫХОД</a></li>
+            <li><a href="index.html">
+                <div class="logo_img">
+                    <img src="images/icons/insta.png" alt="">
+                </div>
+            </a></li>
+            <li class="link_active"><a id="profile" href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/profile.png" alt=""></div>
+                    <div>ПРОФИЛЬ</div>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/map.png" alt=""></div>
+                    <div>ОСНОВНОЙ КВЕСТ</div>
+                </div>
+            </a>
+            </li>
+            <li><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/def.png" alt=""></div>
+                    <div>СОРЕВНОВАНИЯ</div>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/stats.png" alt=""></div>
+                    <div>СТАТИСТИКА</div>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/statistics--v3.png" alt=""></div>
+                    <div>РЕЙТИНГ</div>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/home.png" alt=""></div>
+                    <div>МАГАЗИН</div>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/quest.png" alt=""></div>
+                    <div>ТЕСТЫ</div>
+                </div>
+            </a></li>
+            <li id="last"><a href="#">
+                <div class="nav_bar_block">
+                    <div><img class="nav_img" src="images/icons/quit.png" alt=""></div>
+                    <div>ВЫХОД</div>
+                </div>
+            </a></li>
         </ul>
     </div>
     <div class="content">
@@ -27,7 +74,7 @@
                 <img src="images/person.jpeg" alt="">
             </div>
             <div class="about_person">
-                <div class="fio">Фамилия Имя Отчество</div>
+                <div class="fio">Родионов Алексей Михайлович</div>
                 <div class="position_and_subdivision">
                     <div>Должность: Старший специалист</div>
                     <div>Подразделение: Москва</div>
@@ -101,6 +148,7 @@
                         </div>
                     </div>
                     <!--задача 3-->
+                    <!--                    блок с двигающейся херней-->
                     <div class="task">
                         <div class="name">Название некой задачи</div>
                         <div class="progress">

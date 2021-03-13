@@ -26,11 +26,9 @@ body {
     width: 25%;
     border-radius: 30px;
     font-size: 22px;
-    padding-bottom: 30px;
     text-align: left;
-    padding-top: 30px;
     transition: all 0.5s ease;
-    padding-left: 12px;
+    padding: 30px 20px;
 
 }
 
@@ -154,6 +152,7 @@ body {
 
 .name {
     margin-bottom: 5px;
+    max-width: 50%;
 }
 
 .about_quests {
@@ -203,6 +202,23 @@ body {
     background-color: #1c7430;
     border-radius: 100px;
 }
+.nav_img{
+    width: 30px;
+    margin-right: 10px;
+}
+.nav_bar_block{
+    display: flex;
+}
+
+.logo_img img{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.logo_img{
+    horiz-align: center;
+
+}
+
 
 @media (max-width: 991px) {
     .navigator {
